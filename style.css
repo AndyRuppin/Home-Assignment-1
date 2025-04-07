@@ -5,12 +5,12 @@
 }
 
 .navbar {
-  background-color: #252525;
+  background-color: #eaeaea;
   border-radius: 5px;
-  margin: 0px;
-  padding: 0px;
   position: fixed;
 }
+
+
 
 .navbar ul {
   list-style: none;
@@ -19,7 +19,7 @@
 .navbar a {
   font-size: 30px;
   font-weight: 15;
-  color: #fefed5;
+  color: #101216;
   text-decoration: none;
   padding: 0px;
   margin-inline-start: 5px;
@@ -27,8 +27,8 @@
 }
 
 .navbar a:hover {
-  background-color: #fefed5;
-  color: #28aa98;
+  background-color: #3a4252;
+  color: #1df7f4;
 }
 
 
@@ -36,91 +36,177 @@
   object-fit: cover;
   padding-bottom: 10px;
   padding-left: 16px;
-  padding-right: 5px;
+  padding-right: 20px;
   width: 700px;
   height: 500px;
   border-radius: 45px;
 }
 
 .pre-sec1 {
-  background-image: url(Shop2.jpg);
+  background-image: url(Ny\ store2.jpg);
   text-align: center;
-  font-size: 150;
-  padding: 350px;
+  font-size: 70;
+  padding-top: 330px;
+  padding-bottom: 350px;
 }
 
-.flex-container {
-  color: #fefed5;
+
+section#sec1 {
+  color: #3a4252;
   font-size: large;
-  background-color: rgb(53, 208, 186,0.8);
+  background-color: #eaeaea;
   display: flex;
   justify-content: center;
   padding-top: 10px;
-}
 
-section#sec1 {
- h2 {
+  h2 {
     font-size: 35px;
-    color: #fefed5;
+    color: #3a4252;
+    ;
     margin-left: 10px;
   }
-p {
-    font-weight:200 ;
+
+  p {
+    font-weight: 200;
     padding-top: 10px;
     margin-left: 10px;
   }
 }
 
-.presec2{
-  background-image: url(story.jpg);
+.presec2 {
+  background-image: url(baking\ table.jpg);
   text-align: center;
   font-size: 70;
-  padding-top: 240px;
-  padding-bottom: 240px;
-  h3{
-      color:#fefed5;
-      text-shadow:2px 2px 1px #28aa98;
+  padding-top: 260px;
+  padding-bottom: 100px;
+
+  h3 {
+    color: #101216;
+    text-shadow: 1px, 4px, 10px #eaeaea;;
   }
 }
 
 section#sec2 {
-h2 {
+  color: #eaeaea;
+  font-size: large;
+  background-color: rgb(53, 208, 186, 0.8);
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+
+  h2 {
     font-size: 35px;
-    color: #fefed5;
+    color: #eaeaea;
     margin-left: 10px;
   }
+
   p {
-    font-weight:200;
+    font-weight: 200;
     padding-top: 10px;
     margin-left: 10px;
   }
 }
 
-.presec3{
-    background-image: url(shopping.jpg);
-    text-align: center;
-    font-size: 70;
-    padding: 260px;
-    h3{
-        color:#fefed5;
-        text-shadow:2px 2px 1px #28aa98;
-    }
+.presec3 {
+  background-image: url(story.jpg);
+  text-align: center;
+  font-size: 70;
+  padding: 300px;
+
+  h3 {
+    color: #eaeaea;
+    text-shadow: 2px 2px 1px #28aa98;
   }
+}
 
 section#sec3 {
-h2 {
+  color: #3a4252;
+  font-size: large;
+  background-color: #eaeaea;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+
+  h2 {
     padding-top: 10;
     font-size: 35px;
-    color: #fefed5;
+    color: #3a4252;
     margin-left: 10px;
   }
+
   p {
-    font-weight:200;
+    font-weight: 200;
     padding-top: 10px;
     margin-left: 10px;
   }
-  li{
+
+  li {
     font-weight: 200;
-    list-style:none;
+    list-style: none;
+  }
 }
+
+.presec4 {
+  background-image: url(shopping.jpg);
+  text-align: center;
+  font-size: 80;
+  padding-top: 290px;
+  padding-bottom: 200px;
+  h3 {
+    color: #eaeaea;
+    text-shadow: 2px 2px 1px #28aa98;
+  }
+}
+
+
+section#sec4 {
+  color: #3a4252;
+  font-size: large;
+  text-align: center;
+  background-color: #eaeaea;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+
+  h2 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 35px;
+    color: #3a4252;
+    margin-left: 10px;
+  }
+
+  p {
+    font-weight: 200;
+    padding-top: 10px;
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+}
+
+.card {
+  width: 320px;
+  height: 200px;
+  margin: auto;
+  border-radius: 10px;
+  background-color:#eaeaea; 
+  border-color: #eaeaea;
+}
+
+.card-img{
+  width: 100%;
+  max-height: 180px;
+  object-fit:fill;
+}
+
+#card-row{
+  padding-top: 50px;
+  padding-bottom: 50px;
 }

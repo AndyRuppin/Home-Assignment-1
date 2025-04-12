@@ -7,7 +7,7 @@
 .navbar {
   background-color: #eaeaea;
   border-radius: 5px;
-  position: fixed;
+
 }
 
 
@@ -89,7 +89,7 @@ section#sec1 {
 section#sec2 {
   color: #eaeaea;
   font-size: large;
-  background-color: rgb(53, 208, 186, 0.8);
+  background-color: #35d0bacc;
   display: flex;
   justify-content: center;
   padding-top: 10px;
@@ -194,7 +194,7 @@ section#sec4 {
 .card {
   width: 320px;
   height: 200px;
-  margin: auto;
+  margin: 50px;
   border-radius: 10px;
   background-color:#eaeaea; 
   border-color: #eaeaea;
@@ -207,6 +207,31 @@ section#sec4 {
 }
 
 #card-row{
-  padding-top: 50px;
   padding-bottom: 50px;
+}
+
+
+section#sec5
+{
+  h2 {
+    padding-top: 35px;
+    font-size: 35px;
+    color:#101216;
+  }
+  p{
+    color:#101216;
+  }
+}
+
+
+#minicard{
+  width: 300px;
+  height: 125px;
+  margin-left: 175px;
+}
+
+
+footer{
+background-image: url(/LE\ footer.jpeg);
+  background-size: cover;
 }
